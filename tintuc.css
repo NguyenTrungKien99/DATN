@@ -1,0 +1,21 @@
+*{
+margin : 0;
+padding: 0px;
+color: #067655;
+}
+a{
+color: #C5B6A1;
+}		
+
+.card-img-top{
+	width:100%;
+	height: 200px;
+}
+.card-img{
+	width: 100%;
+	height: 280px;
+	padding-bottom: 20px;
+}
+b{
+	color:white;
+}

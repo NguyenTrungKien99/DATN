@@ -1,0 +1,120 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+ }
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+*{
+	font-family: Montserrat;
+	
+}
+#dieuhuong{
+	text-decoration: none;
+	font-size: 20px  ;
+	margin: 0px auto;
+	display: flex;
+	margin-bottom: 122px;
+	margin-top: 36px;
+	color: black;
+
+
+}
+#navbar{ 
+	background-color: #ffffff;
+
+}
+.nav-link{
+	color: #067655;
+
+}
+#logo{
+margin-bottom: 90px;
+}
+.navbar{
+	
+	color: #3C8974
+	margin: 0 auto ;
+	
+}
+#thanhtimkiem{
+	float: right;
+	margin: 0 auto;
+
+}
+.cta-word{
+	display: flex;
+}
+#chuyentrang{
+	text-align: center;
+	color: #C5B6A1;
+}
+#cta{
+	text-align: center;
+	margin-top: 26px;
+}
+#muiten{
+	align-items: center;
+}
+#btn-xemtoanbo{
+	background: #C5B6A1;
+	text-align: right;
+	position: absolute;
+	left: 1200px;
+
+}
+.product{
+margin: 0px auto 0px 10px;
+padding: 10px 10px 10px 10px;
+}
+.list-product-subtitle{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.card-product{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;	
+}
+
+.btn-primary{
+	background:  #067655;
+	width: auto;
+
+}
+.footer{
+	font-size: 14px;
+	color: #ffffff ;
+	background: #067655;
+	padding-top: 30px;
+}
+.card{
+	
+	border: none;
+}
+.card-img-top{
+ width:100%;
+ height: auto; 
+
+}
+.stick-top{
+	height: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+

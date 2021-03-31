@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang giỏ hàng</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/Users/nguyentrungkien/Desktop/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="trangchu.css ">
+	<link rel="stylesheet" type="text/css" href="giohang.css">
+</head>
+<body>
+<link rel="stylesheet" type="text/javascript" href=" /Users/nguyentrungkien/Desktop/bootstrap/js/bootstrap.min.js">
+	<!-- Menu bar -->
+	
+  		<div class="container  menu " >
+		<nav class="navbar navbar-light bg-light stick-top" style="color:#ffffff">
+			
+			<!-- Logo -->
+		  <a class="navbar-brand" href="#">
+		    <img id="logo" src="/Users/nguyentrungkien/Desktop/Doan/Logo.png " width="75" height="75" alt="" style="margin-left: 50px;">
+		  </a>
+		  <!-- điều hướng -->
+		  <ul class="nav" id="dieuhuong" >
+				  	<li class="nav-item active">
+		        		<a class="nav-link" href="Tintuc.html">Tin tức</a>
+		      		</li>
+		     		<li class="nav-item">
+		        		<a class="nav-link" href="Sanpham.html">Sản phẩm</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="giohang.html">Giỏ hàng</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link " href="#">Về chúng tôi</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link " href="Dangnhap.html" id="dangnhap">Đăng nhập</a>
+		      		</li>
+		      		<li class="nav-item" id="thanhtimkiem" style="margin-top:5px; margin-left: 20px;">
+		      			<form class="form-inline my-2 my-lg-0">
+      					<input class="rounded form-control mr-sm-2" type="search" placeholder="tìm kiếm" aria-label="Search" style="float: right;">
+    	  				</form>
+		      		</li>
+		  </ul>
+		</nav>	
+	</div>
+
+<div class="container" id="banggiohang">
+	<h4 style="margin-top: 20px;margin-bottom:20px;">GIỎ HÀNG</h4>
+</div>
+
+<div class="container" id="banggiohang">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Hình ảnh</th>
+      <th scope="col">Tên</th>
+      <th scope="col">Size</th>
+      <th scope="col">Số lượng
+      </th>
+      <th scope="col">Giá</th>
+      <th scope="col">Đơn giá</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><img src="/Users/nguyentrungkien/Desktop/Doan/Americano.jpeg" style="width: 40px;height: auto;"></th>
+      <td>Cà phê Americano</td>
+      <td>L</td>
+      <td>
+		<button>-</button>
+      	<input type="number" name="Soluong" value="1" style="width: 35px;" 	 >
+      	<button>+</button>
+      </td>
+      <td>45.000</td>
+      <td>45.000</td>
+    </tr>
+    <tr>
+      <th scope="row"><img src="/Users/nguyentrungkien/Desktop/Doan/Milkcoffee.jpeg " style="width: 40px;height: auto;"></th>
+      <td>Cà phê Latte</td>
+      <td>M</td>
+      <td>
+      	<button>-</button>
+      	<input type="number" name="Soluong" value="1" style="width: 35px;" 	 >
+      	<button>+</button>
+      </td>
+      <td>50.000</td>
+      <td>50.000</td>
+    </tr>
+    <tr>
+      <th scope="row"><img src="/Users/nguyentrungkien/Desktop/Doan/matchacf.jpeg" style="width: 40px;height: auto;"></th>
+      <td>Matcha đá xay</td>
+      <td>S</td>
+      <td>
+      	<button>-</button>
+      	<input type="number" name="Soluong" value="2" style="width: 35px;" 	 >
+      	<button>+</button>
+      </td>
+      <td>65.000</td>
+      <td>130.000</td>
+    </tr>
+   
+  </tbody>
+</table>
+
+</div>
+
+<div class="container">
+	<div class="col-md-12 cl-sm-12" style="text-align: center; line-height: 50px;">
+		<h4 style="margin-top:30px;
+		margin-bottom:30px;"><p>Thành tiền: </p> <span><b>175.000</b></span></h4>
+		<button class="btn btn-primary" style="width: auto; height: 50px;">THANH TOÁN</button>
+	</div>
+
+</div>
+
+<div class="container ">
+	<a href="Sanpham.html" id="muatiep" style="display: flex; align-items: center; flex-direction:column; margin-top:20px;color: #C5B6A1;" ><u>Trở lại mua hàng</u> </a>
+	<br>
+</div>
+
+<!-- Footer -->
+<div class="container" id="footer" style="padding-top: 100px; font-family: Montserrat;">
+	<div class="row" style="">
+	<div class="col-md-3 col-sm-12 footer">
+		<b>STARBUCKS</b>
+	</div>	
+	<div class="col-md-3 col-sm-12 footer ">
+		<b>Sản phẩm</b>
+		<h6>Cà phê</h6>
+		<h6>Trà</h6>
+		<h6>Bánh ngọt</h6>
+	</div>
+	<div class="col-md-3 col-sm-12 footer">
+		<b>Về chúng tôi</b>
+		<h6>Lịch sử</h6>
+		<h6>Sứ mệnh</h6>
+		<img src="/Users/nguyentrungkien/Desktop/Doan/chungchi.png" width="" height="75">
+	</div>
+	<div class="col-md-3 col-sm-12 footer">
+		<b>Liên hệ</b>
+		<h6>Số điện thoại: 0203 123 456</h6>
+		<h6>Địa chỉ: Toà nhà A2 - khu đô thị Royal city - đường Nguyễn Trãi - quận Thanh Xuân - thành phố Hà Nội </h6>
+	</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
